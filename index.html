@@ -107,7 +107,7 @@
 </div>
 
 <script>
-  // ---------- 多语言翻译对象 (简略，完整版可扩充) ----------
+  // ---------- 多语言翻译对象 ----------
   const i18n = {
     hi: { brand:'इंडियन फाइनेंस', nav_products:'प्रोडक्ट्स', nav_features:'फीचर्स', nav_how:'कैसे काम करे', nav_download:'बैंकसाथी ऐप', hero_badge:'<i class="fas fa-bolt"></i> बैंकसाथी द्वारा संचालित', hero_title_highlight:'इंडियन फाइनेंस', hero_title_rest:'के साथ', hero_subtitle:'क्रेडिट कार्ड, बैंक अकाउंट और डीमैट', hero_tagline:'अब एक क्लिक पर', hero_desc:'लाइफटाइम फ्री क्रेडिट कार्ड, जीरो बैलेंस सेविंग अकाउंट और फ्री डीमैट अकाउंट – बैंकसाथी ऐप पर 100% डिजिटल और झंझट-मुक्त।', hero_cta_products:'प्रोडक्ट देखें', stat_customers:'खुश ग्राहक', stat_partners:'पार्टनर', stat_rating:'रेटिंग', secure_badge:'RBI रजिस्टर्ड | 100% सुरक्षित', products_title:'बैंकसाथी के टॉप फाइनेंस प्रोडक्ट्स', products_subtitle:'अपनी पसंद का प्रोडक्ट चुनें और तुरंत अप्लाई करें', download_title:'बैंकसाथी ऐप डाउनलोड करें<br>और पाएं एक्सक्लूसिव ऑफर', footer_copyright:'© 2026 इंडियन फाइनेंस', footer_privacy:'प्राइवेसी पॉलिसी', footer_terms:'शर्तें' },
     en: { brand:'Indian Finance', nav_products:'Products', nav_features:'Features', nav_how:'How it works', nav_download:'Banksathi App', hero_badge:'<i class="fas fa-bolt"></i> Powered by Banksathi', hero_title_highlight:'Indian Finance', hero_title_rest:'brings you', hero_subtitle:'Credit Card, Bank Account & Demat', hero_tagline:'just a click away', hero_desc:'Lifetime free credit cards, zero balance savings account and free Demat account – 100% digital and hassle-free on Banksathi app.', hero_cta_products:'Explore Products', stat_customers:'Happy Customers', stat_partners:'Partners', stat_rating:'Rating', secure_badge:'RBI Registered | 100% Secure', products_title:'Top Finance Products on Banksathi', products_subtitle:'Choose your product and apply instantly', download_title:'Download Banksathi App<br>and get exclusive offers', footer_copyright:'© 2026 Indian Finance', footer_privacy:'Privacy', footer_terms:'Terms' }
@@ -127,32 +127,41 @@
   }
   document.getElementById('langSwitcher').addEventListener('change', e => applyLanguage(e.target.value));
 
-  // ---------- 从三个 TXT 文件加载产品数据 ----------
+  // ---------- 从三个 TXT 文件加载产品数据 (अब ऐरे और ऑब्जेक्ट दोनों सपोर्ट करता है) ----------
   async function loadProductsFromTxt() {
     const files = [
       { type: 'credit_card', url: './upload/creditcard.txt' },
       { type: 'bank_account', url: './upload/bankaccount.txt' },
       { type: 'demat', url: './upload/demataccount.txt' }
     ];
-    const productPromises = files.map(async (file) => {
+    
+    const allProducts = [];
+    
+    for (const file of files) {
       try {
         const response = await fetch(file.url);
-        if (!response.ok) throw new Error(`无法加载 ${file.url}`);
+        if (!response.ok) throw new Error(`Failed to load ${file.url}`);
         const text = await response.text();
-        // 解析 JSON（文件内容应为合法 JSON）
-        const product = JSON.parse(text);
-        product.type = file.type; // 确保类型正确
-        return product;
+        const data = JSON.parse(text);
+        
+        // अगर डेटा ऐरे है तो हर आइटम में type जोड़ें, वरना सिंगल ऑब्जेक्ट में type जोड़ें
+        if (Array.isArray(data)) {
+          data.forEach(item => { item.type = file.type; });
+          allProducts.push(...data);
+        } else {
+          data.type = file.type;
+          allProducts.push(data);
+        }
       } catch (err) {
-        console.error(`加载产品失败 (${file.url}):`, err);
-        return null;
+        console.error(`❌ Error loading ${file.url}:`, err);
       }
-    });
-    const products = (await Promise.all(productPromises)).filter(p => p !== null);
-    return products;
+    }
+    
+    console.log(`✅ कुल ${allProducts.length} प्रोडक्ट लोड हुए:`, allProducts);
+    return allProducts;
   }
 
-  // 渲染产品卡片 (इमेज सपोर्ट के साथ)
+  // 渲染产品卡片 (बेहतर इमेज हैंडलिंग और डिबगिंग के साथ)
   function renderProducts(products, lang) {
     const container = document.getElementById('productsContainer');
     if (!products || products.length === 0) {
@@ -160,19 +169,20 @@
       return;
     }
     let html = '';
-    products.forEach(p => {
+    products.forEach((p, index) => {
       const title = p[`title_${lang}`] || p.title_en || p.title || '';
       const desc = p[`desc_${lang}`] || p.desc_en || p.desc || '';
       const badge = p[`badge_${lang}`] || p.badge_en || p.badge || '';
       const highlight = p[`highlight_${lang}`] || p.highlight_en || p.highlight || '';
       const applyText = p[`applyText_${lang}`] || p.applyText_en || 'Apply';
       const features = p.features || [];
-      const imageUrl = p.image || '';  // इमेज URL
+      const imageUrl = p.image || '';
 
-      // आइकन (अगर इमेज न हो तो फ़ॉलबैक)
+      console.log(`🖼️ Product ${index+1} (${title}): imageUrl = "${imageUrl}"`);
+
       let iconHtml = '';
-      if (imageUrl) {
-        iconHtml = `<img src="${imageUrl}" alt="${title}" style="width:100%; max-width:200px; height:auto; border-radius:16px; margin-bottom:16px; box-shadow:0 8px 16px rgba(0,0,0,0.1);">`;
+      if (imageUrl && imageUrl.trim() !== '') {
+        iconHtml = `<img src="${imageUrl}" alt="${title}" style="display: block; width: 100%; max-width: 220px; height: auto; margin: 0 auto 16px auto; border-radius: 16px; box-shadow: 0 8px 16px rgba(0,0,0,0.1); border: 1px solid #e2e8f0;" onerror="this.style.display='none'; console.warn('❌ इमेज लोड नहीं हुई:', this.src);">`;
       } else {
         if (p.type === 'credit_card') iconHtml = '<i class="far fa-credit-card" style="font-size:48px; color:#2563eb; margin-bottom:20px;"></i>';
         else if (p.type === 'bank_account') iconHtml = '<i class="fas fa-university" style="font-size:48px; color:#2563eb; margin-bottom:20px;"></i>';
@@ -211,6 +221,7 @@
       window.productList = products;
       renderProducts(products, currentLang);
     } catch (err) {
+      console.error('❌ Init error:', err);
       document.getElementById('productsContainer').innerHTML = `<p style="color:red; text-align:center;">❌ प्रोडक्ट लोड नहीं हो सके। कृपया फ़ाइलें जाँचें।</p>`;
     }
   })();
