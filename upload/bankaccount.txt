@@ -19,5 +19,26 @@
     "link": "https://leads.banksathi.com/?h=cldFNkJkNU5QdlBUSDNleHpxSzdQQT09",
     "applyText_hi": "अभी खोलें",
     "applyText_en": "Open Now"
+  },
+  {
+    "badge_hi": "डिजिटल सेविंग्स",
+    "badge_en": "Digital Savings",
+    "title_hi": "इंडसइंड डिजिटल सेविंग अकाउंट",
+    "title_en": "IndusInd Digital Savings Account",
+    "desc_hi": "मिनटों में खाता खोलें, अपना अकाउंट नंबर खुद चुनें और 5% तक ब्याज पाएं।",
+    "desc_en": "Open in minutes, choose your own account number & earn up to 5% interest.",
+    "highlight_hi": "5% तक ब्याज + 7% FD दरें",
+    "highlight_en": "Up to 5% Interest + 7% FD Rates",
+    "image": "./upload/images/indusind-savings.jpg",
+    "features": [
+      { "hi": "अपना अकाउंट नंबर खुद चुनें", "en": "Choose your own account number" },
+      { "hi": "बचत पर 5% तक ब्याज", "en": "Earn up to 5% interest on savings" },
+      { "hi": "इंडसइंड बैंक FD पर 7% तक ब्याज", "en": "Up to 7% interest with IndusInd Bank FD" },
+      { "hi": "आसान WhatsApp बैंकिंग सेवाएं", "en": "Easy WhatsApp Banking Services" },
+      { "hi": "IndusMobile ऐप पर खाने, कैब और बिलों पर छूट", "en": "Exclusive discounts on food, cabs & bills via IndusMobile" }
+    ],
+    "link": "https://leads.banksathi.com/?h=T2FIT0ptamZpZHlvOXNOZytycS9jQT09",
+    "applyText_hi": "अभी खोलें",
+    "applyText_en": "Apply Now"
   }
 ]
