@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>इंडियन फाइनेंस | क्रेडिट कार्ड, बैंक अकाउंट, डीमैट, डिजिटल गोल्ड</title>
+  <title>इंडियन फाइनेंस | क्रेडिट कार्ड, बैंक, डीमैट, गोल्ड, बीमा</title>
   <!-- Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
     .logo { display: flex; align-items: center; gap: 10px; font-size: 28px; font-weight: 700; color: #0b2b4f; }
     .logo i { color: #2563eb; font-size: 32px; }
     .logo span { background: linear-gradient(135deg, #1e3c72, #2563eb); -webkit-background-clip: text; background-clip: text; color: transparent; }
-    .nav-links { display: flex; gap: 24px; font-weight: 500; flex-wrap: wrap; }
+    .nav-links { display: flex; gap: 20px; font-weight: 500; flex-wrap: wrap; }
     .nav-links a { text-decoration: none; color: #334155; }
     .nav-links a:hover { color: #2563eb; }
     .download-btn-nav { background: #2563eb; color: white !important; padding: 10px 20px; border-radius: 60px; font-weight: 600; }
@@ -36,8 +36,6 @@
     .stat-item h3 { font-size: 28px; font-weight: 700; }
     .hero-visual { flex: 1 1 350px; background: linear-gradient(145deg, #dbeafe, #ffffff); padding: 24px 20px; border-radius: 48px; text-align: center; border: 1px solid rgba(37,99,235,0.1); }
     .hero-visual i { font-size: 140px; color: #2563eb; }
-    .section-title { text-align: center; margin-bottom: 56px; }
-    .section-title h2 { font-size: 36px; font-weight: 700; color: #0b2b4f; }
     .section-subtitle { text-align: center; margin: 40px 0 30px; }
     .section-subtitle h3 { font-size: 28px; font-weight: 700; color: #1e293b; border-bottom: 3px solid #2563eb30; display: inline-block; padding-bottom: 8px; }
     .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin: 20px 0 40px; }
@@ -75,6 +73,7 @@
       <a href="#bank-accounts" data-i18n="nav_bank">बैंक अकाउंट</a>
       <a href="#demat-accounts" data-i18n="nav_demat">डीमैट</a>
       <a href="#digital-gold" data-i18n="nav_gold">डिजिटल गोल्ड</a>
+      <a href="#insurance" data-i18n="nav_insurance">बीमा</a>
       <a href="#download" class="download-btn-nav"><i class="fas fa-download"></i> <span data-i18n="nav_download">बैंकसाथी ऐप</span></a>
     </div>
   </nav>
@@ -83,8 +82,8 @@
   <section class="hero">
     <div class="hero-content">
       <span class="hero-badge" data-i18n="hero_badge"><i class="fas fa-bolt"></i> बैंकसाथी द्वारा संचालित</span>
-      <h1><span class="hero-highlight" data-i18n="hero_title_highlight">इंडियन फाइनेंस</span> <span data-i18n="hero_title_rest">के साथ</span><br><span data-i18n="hero_subtitle">क्रेडिट कार्ड, बैंक अकाउंट और डीमैट</span><br><span data-i18n="hero_tagline">अब एक क्लिक पर</span></h1>
-      <p class="hero-desc" data-i18n="hero_desc">लाइफटाइम फ्री क्रेडिट कार्ड, जीरो बैलेंस सेविंग अकाउंट और फ्री डीमैट अकाउंट – बैंकसाथी ऐप पर 100% डिजिटल और झंझट-मुक्त।</p>
+      <h1><span class="hero-highlight" data-i18n="hero_title_highlight">इंडियन फाइनेंस</span> <span data-i18n="hero_title_rest">के साथ</span><br><span data-i18n="hero_subtitle">क्रेडिट कार्ड, बैंक, डीमैट, गोल्ड और बीमा</span><br><span data-i18n="hero_tagline">अब एक क्लिक पर</span></h1>
+      <p class="hero-desc" data-i18n="hero_desc">लाइफटाइम फ्री क्रेडिट कार्ड, जीरो बैलेंस अकाउंट, फ्री डीमैट, डिजिटल गोल्ड और बीमा – बैंकसाथी ऐप पर 100% डिजिटल और झंझट-मुक्त।</p>
       <div class="hero-cta"><a href="#credit-cards" class="btn btn-primary"><i class="fas fa-credit-card"></i> <span data-i18n="hero_cta_products">प्रोडक्ट देखें</span></a></div>
       <div class="hero-stats"><div class="stat-item"><h3>10 लाख+</h3><p data-i18n="stat_customers">खुश ग्राहक</p></div><div class="stat-item"><h3>25+ बैंक</h3><p data-i18n="stat_partners">पार्टनर</p></div><div class="stat-item"><h3>4.9 ★</h3><p data-i18n="stat_rating">रेटिंग</p></div></div>
     </div>
@@ -121,12 +120,22 @@
     </div>
   </section>
 
-  <!-- ========== 4. डिजिटल गोल्ड सेक्शन (नया) ========== -->
+  <!-- ========== 4. डिजिटल गोल्ड सेक्शन ========== -->
   <section id="digital-gold" style="margin: 60px 0;">
     <div class="section-subtitle">
       <h3><i class="fas fa-coins" style="margin-right: 10px;"></i> <span data-i18n="section_gold">डिजिटल गोल्ड</span></h3>
     </div>
     <div id="digitalGoldContainer" class="products-grid">
+      <div style="text-align:center; padding:40px; color:#64748b;"><i class="fas fa-spinner fa-pulse"></i> लोड हो रहे हैं...</div>
+    </div>
+  </section>
+
+  <!-- ========== 5. बीमा सेक्शन (नया) ========== -->
+  <section id="insurance" style="margin: 60px 0;">
+    <div class="section-subtitle">
+      <h3><i class="fas fa-shield-virus" style="margin-right: 10px;"></i> <span data-i18n="section_insurance">बीमा</span></h3>
+    </div>
+    <div id="insuranceContainer" class="products-grid">
       <div style="text-align:center; padding:40px; color:#64748b;"><i class="fas fa-spinner fa-pulse"></i> लोड हो रहे हैं...</div>
     </div>
   </section>
@@ -137,33 +146,33 @@
 </div>
 
 <script>
-  // ---------- 多语言翻译 (अपडेटेड) ----------
+  // ---------- बहुभाषी अनुवाद (Insurance जोड़ा गया) ----------
   const i18n = {
     hi: { 
       brand:'इंडियन फाइनेंस', 
-      nav_credit:'क्रेडिट कार्ड', nav_bank:'बैंक अकाउंट', nav_demat:'डीमैट', nav_gold:'डिजिटल गोल्ड', nav_download:'बैंकसाथी ऐप',
+      nav_credit:'क्रेडिट कार्ड', nav_bank:'बैंक अकाउंट', nav_demat:'डीमैट', nav_gold:'डिजिटल गोल्ड', nav_insurance:'बीमा', nav_download:'बैंकसाथी ऐप',
       hero_badge:'<i class="fas fa-bolt"></i> बैंकसाथी द्वारा संचालित', 
       hero_title_highlight:'इंडियन फाइनेंस', hero_title_rest:'के साथ', 
-      hero_subtitle:'क्रेडिट कार्ड, बैंक अकाउंट और डीमैट', hero_tagline:'अब एक क्लिक पर',
-      hero_desc:'लाइफटाइम फ्री क्रेडिट कार्ड, जीरो बैलेंस सेविंग अकाउंट और फ्री डीमैट अकाउंट – बैंकसाथी ऐप पर 100% डिजिटल और झंझट-मुक्त।',
+      hero_subtitle:'क्रेडिट कार्ड, बैंक, डीमैट, गोल्ड और बीमा', hero_tagline:'अब एक क्लिक पर',
+      hero_desc:'लाइफटाइम फ्री क्रेडिट कार्ड, जीरो बैलेंस अकाउंट, फ्री डीमैट, डिजिटल गोल्ड और बीमा – बैंकसाथी ऐप पर 100% डिजिटल और झंझट-मुक्त।',
       hero_cta_products:'प्रोडक्ट देखें',
       stat_customers:'खुश ग्राहक', stat_partners:'पार्टनर', stat_rating:'रेटिंग',
       secure_badge:'RBI रजिस्टर्ड | 100% सुरक्षित',
-      section_credit:'क्रेडिट कार्ड', section_bank:'बैंक अकाउंट', section_demat:'डीमैट अकाउंट', section_gold:'डिजिटल गोल्ड',
+      section_credit:'क्रेडिट कार्ड', section_bank:'बैंक अकाउंट', section_demat:'डीमैट अकाउंट', section_gold:'डिजिटल गोल्ड', section_insurance:'बीमा',
       download_title:'बैंकसाथी ऐप डाउनलोड करें<br>और पाएं एक्सक्लूसिव ऑफर',
       footer_copyright:'© 2026 इंडियन फाइनेंस', footer_privacy:'प्राइवेसी पॉलिसी', footer_terms:'शर्तें'
     },
     en: { 
       brand:'Indian Finance', 
-      nav_credit:'Credit Cards', nav_bank:'Bank Accounts', nav_demat:'Demat', nav_gold:'Digital Gold', nav_download:'Banksathi App',
+      nav_credit:'Credit Cards', nav_bank:'Bank Accounts', nav_demat:'Demat', nav_gold:'Digital Gold', nav_insurance:'Insurance', nav_download:'Banksathi App',
       hero_badge:'<i class="fas fa-bolt"></i> Powered by Banksathi', 
       hero_title_highlight:'Indian Finance', hero_title_rest:'brings you', 
-      hero_subtitle:'Credit Card, Bank Account & Demat', hero_tagline:'just a click away',
-      hero_desc:'Lifetime free credit cards, zero balance savings account and free Demat account – 100% digital and hassle-free on Banksathi app.',
+      hero_subtitle:'Credit Card, Bank, Demat, Gold & Insurance', hero_tagline:'just a click away',
+      hero_desc:'Lifetime free credit cards, zero balance account, free Demat, digital gold and insurance – 100% digital and hassle-free on Banksathi app.',
       hero_cta_products:'Explore Products',
       stat_customers:'Happy Customers', stat_partners:'Partners', stat_rating:'Rating',
       secure_badge:'RBI Registered | 100% Secure',
-      section_credit:'Credit Cards', section_bank:'Bank Accounts', section_demat:'Demat Accounts', section_gold:'Digital Gold',
+      section_credit:'Credit Cards', section_bank:'Bank Accounts', section_demat:'Demat Accounts', section_gold:'Digital Gold', section_insurance:'Insurance',
       download_title:'Download Banksathi App<br>and get exclusive offers',
       footer_copyright:'© 2026 Indian Finance', footer_privacy:'Privacy', footer_terms:'Terms'
     }
@@ -184,13 +193,14 @@
   }
   document.getElementById('langSwitcher').addEventListener('change', e => applyLanguage(e.target.value));
 
-  // ---------- 从 TXT 文件加载所有产品 (अब 4 फ़ाइलें) ----------
+  // ---------- सभी 5 फ़ाइलों से उत्पाद लोड करें ----------
   async function loadProductsFromTxt() {
     const files = [
       { type: 'credit_card', url: './upload/creditcard.txt' },
       { type: 'bank_account', url: './upload/bankaccount.txt' },
       { type: 'demat', url: './upload/demataccount.txt' },
-      { type: 'digital_gold', url: './upload/digitalgold.txt' }   // नई फ़ाइल
+      { type: 'digital_gold', url: './upload/digitalgold.txt' },
+      { type: 'insurance', url: './upload/insurance.txt' }   // नई बीमा फ़ाइल
     ];
     const allProducts = [];
     for (const file of files) {
@@ -214,7 +224,7 @@
     return allProducts;
   }
 
-  // 单个卡片 HTML 生成
+  // 单个 कार्ड HTML जनरेटर
   function generateCardHTML(p, lang) {
     const title = p[`title_${lang}`] || p.title_en || p.title || '';
     const desc = p[`desc_${lang}`] || p.desc_en || p.desc || '';
@@ -226,12 +236,13 @@
 
     let iconHtml = '';
     if (imageUrl && imageUrl.trim() !== '') {
-      iconHtml = `<img src="${imageUrl}" alt="${title}" style="display: block; width: 100%; max-width: 220px; height: auto; margin: 0 auto 16px auto; border-radius: 16px; box-shadow: 0 8px 16px rgba(0,0,0,0.1); border: 1px solid #e2e8f0;" onerror="this.style.display='none'; console.warn('❌ इमेज लोड नहीं हुई:', this.src);">`;
+      iconHtml = `<img src="${imageUrl}" alt="${title}" style="display: block; width: 100%; max-width: 220px; height: auto; margin: 0 auto 16px auto; border-radius: 16px; box-shadow: 0 8px 16px rgba(0,0,0,0.1); border: 1px solid #e2e8f0;" onerror="this.style.display='none';">`;
     } else {
       if (p.type === 'credit_card') iconHtml = '<i class="far fa-credit-card" style="font-size:48px; color:#2563eb; margin-bottom:20px;"></i>';
       else if (p.type === 'bank_account') iconHtml = '<i class="fas fa-university" style="font-size:48px; color:#2563eb; margin-bottom:20px;"></i>';
       else if (p.type === 'demat') iconHtml = '<i class="fas fa-chart-line" style="font-size:48px; color:#2563eb; margin-bottom:20px;"></i>';
       else if (p.type === 'digital_gold') iconHtml = '<i class="fas fa-coins" style="font-size:48px; color:#2563eb; margin-bottom:20px;"></i>';
+      else if (p.type === 'insurance') iconHtml = '<i class="fas fa-shield-virus" style="font-size:48px; color:#2563eb; margin-bottom:20px;"></i>';
       else iconHtml = '<i class="fas fa-tag" style="font-size:48px; color:#2563eb; margin-bottom:20px;"></i>';
     }
 
@@ -256,19 +267,18 @@
     `;
   }
 
-  // 按类型渲染四个独立区域
+  // सभी 5 सेक्शन रेंडर करें
   function renderAllSections(products, lang) {
-    const creditContainer = document.getElementById('creditCardContainer');
-    const bankContainer = document.getElementById('bankAccountContainer');
-    const dematContainer = document.getElementById('dematAccountContainer');
-    const goldContainer = document.getElementById('digitalGoldContainer');
+    const containers = {
+      credit_card: document.getElementById('creditCardContainer'),
+      bank_account: document.getElementById('bankAccountContainer'),
+      demat: document.getElementById('dematAccountContainer'),
+      digital_gold: document.getElementById('digitalGoldContainer'),
+      insurance: document.getElementById('insuranceContainer')
+    };
 
-    const creditCards = products.filter(p => p.type === 'credit_card');
-    const bankAccounts = products.filter(p => p.type === 'bank_account');
-    const dematAccounts = products.filter(p => p.type === 'demat');
-    const digitalGolds = products.filter(p => p.type === 'digital_gold');
-
-    const renderContainer = (container, items) => {
+    Object.entries(containers).forEach(([type, container]) => {
+      const items = products.filter(p => p.type === type);
       if (items.length === 0) {
         container.innerHTML = `<p style="text-align:center;">कोई प्रोडक्ट उपलब्ध नहीं</p>`;
       } else {
@@ -276,15 +286,10 @@
         items.forEach(p => html += generateCardHTML(p, lang));
         container.innerHTML = html;
       }
-    };
-
-    renderContainer(creditContainer, creditCards);
-    renderContainer(bankContainer, bankAccounts);
-    renderContainer(dematContainer, dematAccounts);
-    renderContainer(goldContainer, digitalGolds);
+    });
   }
 
-  // 初始化
+  // शुरू करें
   (async function init() {
     applyLanguage('hi');
     try {
