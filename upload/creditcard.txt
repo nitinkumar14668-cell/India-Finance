@@ -21,5 +21,26 @@
     "link": "https://leads.banksathi.com/?h=amt6YlZtd0ZFNUNuS2F5QUdCNGI2Zz09",
     "applyText_hi": "अभी अप्लाई करें",
     "applyText_en": "Apply Now"
+  },
+  {
+    "badge_hi": "रिवॉर्ड पैक्ड",
+    "badge_en": "Reward-Packed",
+    "title_hi": "एचडीएफसी बैंक क्रेडिट कार्ड",
+    "title_en": "HDFC Bank Credit Card",
+    "desc_hi": "अमेज़न प्राइम मेंबरशिप, एयरपोर्ट लाउंज एक्सेस, गिफ्ट वाउचर और शॉपिंग पर छूट।",
+    "desc_en": "Amazon Prime membership, airport lounge access, gift vouchers & shopping discounts.",
+    "highlight_hi": "1 साल की फ्री अमेज़न प्राइम",
+    "highlight_en": "1-Year Free Amazon Prime",
+    "image": "./upload/images/hdfc-card.jpg",
+    "features": [
+      { "hi": "1 साल की फ्री अमेज़न प्राइम मेंबरशिप", "en": "Free 1-Year Membership of Amazon Prime" },
+      { "hi": "एयरपोर्ट लाउंज एक्सेस", "en": "Airport Lounge Access" },
+      { "hi": "आकर्षक गिफ्ट वाउचर", "en": "Exciting Gift Voucher" },
+      { "hi": "ग्रोसरी, मूवी और शॉपिंग पर छूट", "en": "Discount on Grocery, Movies & Shopping" },
+      { "hi": "हर खरीद पर कैशबैक", "en": "Cashback On Every Purchase" }
+    ],
+    "link": "https://leads.banksathi.com/?h=Zm5TMEJNR1lkUmUzNm1ESzR1RlFnQT09",
+    "applyText_hi": "अभी अप्लाई करें",
+    "applyText_en": "Apply Now"
   }
 ]
