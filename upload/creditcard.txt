@@ -8,7 +8,7 @@
     "desc_en": "Heavy discounts on Zomato, Blinkit, Myntra & BookMyShow.",
     "highlight_hi": "40% ऑफ ज़ोमैटो + 10% ऑफ ब्लिंकिट",
     "highlight_en": "40% off Zomato + 10% off Blinkit",
-    "image": "./images/Axis_Neo_Card.jpg",
+    "image": "./upload/images/Axis_Neo_Card.jpg",
     "features": [
       { "hi": "ज़ोमैटो पर 40% की छूट (₹120 तक, महीने में दो बार)", "en": "40% off on Zomato (up to ₹120, twice a month)" },
       { "hi": "बुकमायशो पर 10% की छूट (₹100 तक प्रति माह)", "en": "10% off on BookMyShow (up to ₹100 per month)" },
