@@ -1,43 +1,66 @@
 [
-{
-"badge_hi": "लाइफटाइम फ्री",
-"badge_en": "Lifetime Free",
-"title_hi": "एक्सिस माय ज़ोन क्रेडिट कार्ड",
-"title_en": "Axis My Zone Credit Card",
-"desc_hi": "डाइनिंग, ट्रैवल और शॉपिंग पर शानदार रिवॉर्ड्स।",
-"desc_en": "Amazing rewards on Dining, Travel & Shopping.",
-"highlight_hi": "फ्लैट ₹120 ऑफ + BOGO मूवी",
-"highlight_en": "Flat ₹120 off + BOGO Movie",
-"image": "./images/axis-myzone.png",
-"features": [
-{ "hi": "स्विगी पर ₹120 का फ्लैट डिस्काउंट", "en": "Flat ₹120 off on Swiggy" },
-{ "hi": "मूवी टिकट पर Buy One Get One Free", "en": "Buy One Get One Free on movie tickets" },
-{ "hi": "फ्री SonyLIV सब्सक्रिप्शन (₹1,499 वैल्यू)", "en": "Free SonyLIV subscription worth ₹1,499" },
-{ "hi": "AJIO पर ₹1,000 की छूट", "en": "₹1,000 off on AJIO" },
-{ "hi": "कॉम्प्लिमेंट्री डोमेस्टिक लाउंज एक्सेस", "en": "Complimentary domestic lounge access" }
-],
-"link": "https://leads.banksathi.com/?h=N1U3SjdHcUVzY09VL1o4R0JQZFJSUT09",
-"applyText_hi": "अभी अप्लाई करें",
-"applyText_en": "Apply Now"
-},
-{
-"badge_hi": "प्रीमियम",
-"badge_en": "Premium",
-"title_hi": "प्रीमियम क्रेडिट कार्ड",
-"title_en": "Premium Credit Card",
-"desc_hi": "रिवॉर्ड्स, कैशबैक और एयरपोर्ट लाउंज एक्सेस।",
-"desc_en": "Rewards, cashback and airport lounge access.",
-"highlight_hi": "5% तक कैशबैक",
-"highlight_en": "Up to 5% Cashback",
-"image": "./images/premium-card.png",
-"features": [
-{ "hi": "कोई जॉइनिंग / वार्षिक शुल्क नहीं", "en": "No joining/annual fee" },
-{ "hi": "50 दिन तक ब्याज-मुक्त क्रेडिट", "en": "50 days interest-free credit" },
-{ "hi": "इंस्टेंट वर्चुअल कार्ड", "en": "Instant virtual card" },
-{ "hi": "फ्यूल सरचार्ज वेवर", "en": "Fuel surcharge waiver" }
-],
-"link": "https://leads.banksathi.com/?h=YOUR_OTHER_LINK",
-"applyText_hi": "अभी अप्लाई करें",
-"applyText_en": "Apply Now"
-}
+  {
+    "badge_hi": "लाइफटाइम फ्री",
+    "badge_en": "Lifetime Free",
+    "title_hi": "एक्सिस माय ज़ोन क्रेडिट कार्ड",
+    "title_en": "Axis My Zone Credit Card",
+    "desc_hi": "डाइनिंग, ट्रैवल और शॉपिंग पर शानदार रिवॉर्ड्स।",
+    "desc_en": "Amazing rewards on Dining, Travel & Shopping.",
+    "highlight_hi": "फ्लैट ₹120 ऑफ + BOGO मूवी",
+    "highlight_en": "Flat ₹120 off + BOGO Movie",
+    "image": "./images/axis-myzone.png",
+    "features": [
+      { "hi": "स्विगी पर ₹120 का फ्लैट डिस्काउंट", "en": "Flat ₹120 off on Swiggy" },
+      { "hi": "मूवी टिकट पर Buy One Get One Free", "en": "Buy One Get One Free on movie tickets" },
+      { "hi": "फ्री SonyLIV सब्सक्रिप्शन (₹1,499 वैल्यू)", "en": "Free SonyLIV subscription worth ₹1,499" },
+      { "hi": "AJIO पर ₹1,000 की छूट", "en": "₹1,000 off on AJIO" },
+      { "hi": "कॉम्प्लिमेंट्री डोमेस्टिक लाउंज एक्सेस", "en": "Complimentary domestic lounge access" }
+    ],
+    "link": "https://leads.banksathi.com/?h=N1U3SjdHcUVzY09VL1o4R0JQZFJSUT09",
+    "applyText_hi": "अभी अप्लाई करें",
+    "applyText_en": "Apply Now"
+  },
+  {
+    "badge_hi": "प्रीमियम",
+    "badge_en": "Premium",
+    "title_hi": "प्रीमियम क्रेडिट कार्ड",
+    "title_en": "Premium Credit Card",
+    "desc_hi": "रिवॉर्ड्स, कैशबैक और एयरपोर्ट लाउंज एक्सेस।",
+    "desc_en": "Rewards, cashback and airport lounge access.",
+    "highlight_hi": "5% तक कैशबैक",
+    "highlight_en": "Up to 5% Cashback",
+    "image": "./images/premium-card.png",
+    "features": [
+      { "hi": "कोई जॉइनिंग / वार्षिक शुल्क नहीं", "en": "No joining/annual fee" },
+      { "hi": "50 दिन तक ब्याज-मुक्त क्रेडिट", "en": "50 days interest-free credit" },
+      { "hi": "इंस्टेंट वर्चुअल कार्ड", "en": "Instant virtual card" },
+      { "hi": "फ्यूल सरचार्ज वेवर", "en": "Fuel surcharge waiver" }
+    ],
+    "link": "https://leads.banksathi.com/?h=YOUR_OTHER_LINK",
+    "applyText_hi": "अभी अप्लाई करें",
+    "applyText_en": "Apply Now"
+  },
+  {
+    "badge_hi": "लाइफटाइम फ्री",
+    "badge_en": "Lifetime Free",
+    "title_hi": "एक्सिस नियो क्रेडिट कार्ड",
+    "title_en": "Axis Neo Credit Card",
+    "desc_hi": "ज़ोमैटो, ब्लिंकिट, मिंत्रा और बुकमायशो पर भारी छूट।",
+    "desc_en": "Heavy discounts on Zomato, Blinkit, Myntra & BookMyShow.",
+    "highlight_hi": "40% ऑफ ज़ोमैटो + 10% ऑफ ब्लिंकिट",
+    "highlight_en": "40% off Zomato + 10% off Blinkit",
+    "image": "./images/Axis_Neo_Card.jpg",
+    "features": [
+      { "hi": "ज़ोमैटो पर 40% की छूट (₹120 तक, महीने में दो बार)", "en": "40% off on Zomato (up to ₹120, twice a month)" },
+      { "hi": "बुकमायशो पर 10% की छूट (₹100 तक प्रति माह)", "en": "10% off on BookMyShow (up to ₹100 per month)" },
+      { "hi": "ब्लिंकिट पर 10% की छूट (₹250 तक प्रति माह)", "en": "10% off on Blinkit (up to ₹250 per month)" },
+      { "hi": "मिंत्रा पर ₹150 की छूट (₹999 से ऊपर खरीदारी पर)", "en": "₹150 off on Myntra (on spends above ₹999)" },
+      { "hi": "पहले यूटिलिटी बिल पर 100% कैशबैक (₹300 तक)", "en": "100% Cashback up to ₹300 on first utility bill" },
+      { "hi": "₹2,500 से ऊपर के लेन-देन को EMI में बदलें", "en": "Convert purchases above ₹2,500 to EMI" },
+      { "hi": "पार्टनर रेस्टोरेंट्स पर न्यूनतम 15% की छूट", "en": "Min. 15% OFF on Dining at Partner Restaurants" }
+    ],
+    "link": "https://leads.banksathi.com/?h=amt6YlZtd0ZFNUNuS2F5QUdCNGI2Zz09",
+    "applyText_hi": "अभी अप्लाई करें",
+    "applyText_en": "Apply Now"
+  }
 ]
