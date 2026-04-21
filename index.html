@@ -39,14 +39,44 @@
     .section-subtitle { text-align: center; margin: 40px 0 30px; }
     .section-subtitle h3 { font-size: 28px; font-weight: 700; color: #1e293b; border-bottom: 3px solid #2563eb30; display: inline-block; padding-bottom: 8px; }
     .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin: 20px 0 40px; }
-    .product-card { background: white; border-radius: 32px; padding: 28px 24px 32px; box-shadow: 0 15px 30px -12px #0f172a0d; border: 1px solid #eef2f6; transition: all 0.2s; }
+
+    /* ========== फिक्स: कार्ड flex कॉलम और बटन नीचे ========== */
+    .product-card {
+      background: white;
+      border-radius: 32px;
+      padding: 28px 24px 32px;
+      box-shadow: 0 15px 30px -12px #0f172a0d;
+      border: 1px solid #eef2f6;
+      transition: all 0.2s;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
     .product-card:hover { border-color: #2563eb40; }
-    .product-badge { background: #dcfce7; color: #15803d; padding: 4px 14px; border-radius: 60px; font-size: 13px; font-weight: 600; display: inline-block; margin-bottom: 18px; }
+    .product-badge {
+      background: #dcfce7;
+      color: #15803d;
+      padding: 4px 14px;
+      border-radius: 60px;
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 18px;
+      align-self: flex-start;
+    }
     .product-card h3 { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
     .product-highlight { font-weight: 700; color: #0b2b4f; margin: 16px 0 8px; font-size: 20px; }
     .product-features { list-style: none; margin: 20px 0; }
     .product-features li { padding: 6px 0; display: flex; align-items: center; gap: 10px; }
     .product-features i { color: #22c55e; }
+
+    /* बटन को सबसे नीचे धकेलने के लिए */
+    .product-card .btn-primary {
+      margin-top: auto !important;
+      width: 100%;
+      text-align: center;
+    }
+
     .download-section { background: linear-gradient(145deg, #0b2b4f, #132b4f); border-radius: 48px; padding: 56px 40px; margin: 70px 0 40px; color: white; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
     .store-btn { background: #1e293b; padding: 14px 28px; border-radius: 60px; color: white; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 12px; }
     .footer { padding: 40px 0 30px; border-top: 1px solid #e2e8f0; display: flex; justify-content: space-between; flex-wrap: wrap; color: #475569; }
@@ -146,7 +176,7 @@
 </div>
 
 <script>
-  // ---------- बहुभाषी अनुवाद (Insurance जोड़ा गया) ----------
+  // ---------- बहुभाषी अनुवाद ----------
   const i18n = {
     hi: { 
       brand:'इंडियन फाइनेंस', 
@@ -200,7 +230,7 @@
       { type: 'bank_account', url: './upload/bankaccount.txt' },
       { type: 'demat', url: './upload/demataccount.txt' },
       { type: 'digital_gold', url: './upload/digitalgold.txt' },
-      { type: 'insurance', url: './upload/insurance.txt' }   // नई बीमा फ़ाइल
+      { type: 'insurance', url: './upload/insurance.txt' }
     ];
     const allProducts = [];
     for (const file of files) {
@@ -224,7 +254,7 @@
     return allProducts;
   }
 
-  // 单个 कार्ड HTML जनरेटर
+  // 单个 कार्ड HTML जनरेटर (बटन अपने आप नीचे चला जाएगा क्योंकि CSS में margin-top: auto है)
   function generateCardHTML(p, lang) {
     const title = p[`title_${lang}`] || p.title_en || p.title || '';
     const desc = p[`desc_${lang}`] || p.desc_en || p.desc || '';
@@ -262,7 +292,7 @@
         <p>${desc}</p>
         <div class="product-highlight">${highlight}</div>
         <ul class="product-features">${featuresHtml}</ul>
-        <a href="${p.link || '#'}" target="_blank" class="btn btn-primary" style="width:100%; text-align:center;"><i class="fas fa-arrow-right"></i> ${applyText}</a>
+        <a href="${p.link || '#'}" target="_blank" class="btn btn-primary"><i class="fas fa-arrow-right"></i> ${applyText}</a>
       </div>
     `;
   }
