@@ -1,0 +1,22 @@
+[
+  {
+    "badge_hi": "टर्म इंश्योरेंस",
+    "badge_en": "Term Insurance",
+    "title_hi": "टर्म लाइफ इंश्योरेंस",
+    "title_en": "Term Life Insurance",
+    "desc_hi": "₹1 करोड़ तक का कवर, कम प्रीमियम और टैक्स बचत।",
+    "desc_en": "Cover up to ₹1 crore, low premiums & tax benefits.",
+    "highlight_hi": "₹16/दिन से शुरू*",
+    "highlight_en": "Starting at ₹16/day*",
+    "image": "./upload/images/term-insurance.jpg",
+    "features": [
+      { "hi": "₹1 करोड़ तक का लाइफ कवर", "en": "Life cover up to ₹1 crore" },
+      { "hi": "क्रिटिकल इलनेस कवर का विकल्प", "en": "Option to add critical illness cover" },
+      { "hi": "सेक्शन 80C के तहत टैक्स छूट", "en": "Tax benefits under Section 80C" },
+      { "hi": "पूरी तरह डिजिटल प्रोसेस", "en": "100% digital process" }
+    ],
+    "link": "https://leads.banksathi.com/?h=YOUR_INSURANCE_LINK",
+    "applyText_hi": "अभी खरीदें",
+    "applyText_en": "Buy Now"
+  }
+]
