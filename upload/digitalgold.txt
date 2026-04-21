@@ -1,0 +1,24 @@
+[
+  {
+    "badge_hi": "24K प्योर गोल्ड",
+    "badge_en": "24K Pure Gold",
+    "title_hi": "जार डिजिटल गोल्ड",
+    "title_en": "Jar Digital Gold",
+    "desc_hi": "गोल्ड में निवेश का झंझट-मुक्त तरीका!",
+    "desc_en": "A hassle-free way to invest in gold!",
+    "highlight_hi": "₹10 से निवेश शुरू करें",
+    "highlight_en": "Start investing with just ₹10",
+    "image": "./upload/images/jar-digital-gold.jpg",
+    "features": [
+      { "hi": "₹10 से निवेश शुरू करें", "en": "Start investing with just ₹10" },
+      { "hi": "कभी भी खरीदें और बेचें", "en": "Buy & sell anytime" },
+      { "hi": "24K शुद्ध गोल्ड, सुरक्षित स्टोरेज", "en": "24K pure gold, securely stored" },
+      { "hi": "फिजिकल स्टोरेज की ज़रूरत नहीं", "en": "No physical storage required" },
+      { "hi": "मेकिंग चार्जेस शून्य", "en": "Zero making charges" },
+      { "hi": "ऐप पर आसानी से ट्रैक करें", "en": "Track everything easily on the app" }
+    ],
+    "link": "https://leads.banksathi.com/?h=b3BwdjEzdlZNZkppNTZweWdzaGpLQT09",
+    "applyText_hi": "अभी निवेश करें",
+    "applyText_en": "Invest Now"
+  }
+]
