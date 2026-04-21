@@ -1,40 +1,40 @@
 [
-{
-"badge_hi": "जीरो बैलेंस",
-"badge_en": "Zero Balance",
-"title_hi": "डिजिटल सेविंग अकाउंट",
-"title_en": "Digital Savings Account",
-"desc_hi": "शून्य बैलेंस, हाई इंटरेस्ट और फ्री वर्चुअल डेबिट कार्ड।",
-"desc_en": "Zero balance, high interest, free virtual debit card.",
-"highlight_hi": "7% तक ब्याज*",
-"highlight_en": "Up to 7% interest*",
-"image": "https://i.imgur.com/example-bank1.png",
-"features": [
-{ "hi": "जीरो बैलेंस की आवश्यकता", "en": "Zero balance requirement" },
-{ "hi": "फ्री Rupay प्लैटिनम डेबिट कार्ड", "en": "Free Rupay Platinum Debit Card" },
-{ "hi": "5 मिनट में अकाउंट एक्टिव", "en": "Account active in 5 mins" }
-],
-"link": "https://leads.banksathi.com/?h=YOUR_BANK_LINK_1",
-"applyText_hi": "अकाउंट खोलें",
-"applyText_en": "Open Account"
-},
-{
-"badge_hi": "प्रीमियम",
-"badge_en": "Premium",
-"title_hi": "सैलरी अकाउंट",
-"title_en": "Salary Account",
-"desc_hi": "हर महीने कैशबैक, फ्री इंश्योरेंस और पर्सनल लोन ऑफर।",
-"desc_en": "Monthly cashback, free insurance and personal loan offers.",
-"highlight_hi": "₹10,000 तक कैशबैक",
-"highlight_en": "Up to ₹10,000 Cashback",
-"image": "https://i.imgur.com/example-bank2.png",
-"features": [
-{ "hi": "फ्री पर्सनल एक्सीडेंट इंश्योरेंस", "en": "Free Personal Accident Insurance" },
-{ "hi": "ATM निकासी पर कोई शुल्क नहीं", "en": "No fee on ATM withdrawals" },
-{ "hi": "प्रीमियम डेबिट कार्ड", "en": "Premium Debit Card" }
-],
-"link": "https://leads.banksathi.com/?h=YOUR_BANK_LINK_2",
-"applyText_hi": "सैलरी अकाउंट खोलें",
-"applyText_en": "Open Salary Account"
-}
+  {
+    "badge_hi": "जीरो बैलेंस",
+    "badge_en": "Zero Balance",
+    "title_hi": "डिजिटल सेविंग अकाउंट",
+    "title_en": "Digital Savings Account",
+    "desc_hi": "शून्य बैलेंस, हाई इंटरेस्ट और फ्री वर्चुअल डेबिट कार्ड।",
+    "desc_en": "Zero balance, high interest, free virtual debit card.",
+    "highlight_hi": "7% तक ब्याज*",
+    "highlight_en": "Up to 7% interest*",
+    "image": "./images/savings-account.png",
+    "features": [
+      { "hi": "जीरो बैलेंस की आवश्यकता", "en": "Zero balance requirement" },
+      { "hi": "फ्री Rupay प्लैटिनम डेबिट कार्ड", "en": "Free Rupay Platinum Debit Card" },
+      { "hi": "5 मिनट में अकाउंट एक्टिव", "en": "Account active in 5 mins" }
+    ],
+    "link": "https://leads.banksathi.com/?h=YOUR_BANK_LINK_1",
+    "applyText_hi": "अकाउंट खोलें",
+    "applyText_en": "Open Account"
+  },
+  {
+    "badge_hi": "प्रीमियम",
+    "badge_en": "Premium",
+    "title_hi": "सैलरी अकाउंट",
+    "title_en": "Salary Account",
+    "desc_hi": "हर महीने कैशबैक, फ्री इंश्योरेंस और पर्सनल लोन ऑफर।",
+    "desc_en": "Monthly cashback, free insurance and personal loan offers.",
+    "highlight_hi": "₹10,000 तक कैशबैक",
+    "highlight_en": "Up to ₹10,000 Cashback",
+    "image": "./images/salary-account.png",
+    "features": [
+      { "hi": "फ्री पर्सनल एक्सीडेंट इंश्योरेंस", "en": "Free Personal Accident Insurance" },
+      { "hi": "ATM निकासी पर कोई शुल्क नहीं", "en": "No fee on ATM withdrawals" },
+      { "hi": "प्रीमियम डेबिट कार्ड", "en": "Premium Debit Card" }
+    ],
+    "link": "https://leads.banksathi.com/?h=YOUR_BANK_LINK_2",
+    "applyText_hi": "सैलरी अकाउंट खोलें",
+    "applyText_en": "Open Salary Account"
+  }
 ]
