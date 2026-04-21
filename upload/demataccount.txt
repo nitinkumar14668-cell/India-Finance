@@ -1,40 +1,22 @@
 [
-{
-"badge_hi": "फ्री डीमैट",
-"badge_en": "Free Demat",
-"title_hi": "डीमैट + ट्रेडिंग अकाउंट",
-"title_en": "Demat + Trading Account",
-"desc_hi": "शेयर बाजार में निवेश शुरू करें, बिना मेंटेनेंस चार्ज के।",
-"desc_en": "Start investing in stock market, no maintenance charges.",
-"highlight_hi": "₹0 एएमसी लाइफटाइम",
-"highlight_en": "₹0 AMC Lifetime",
-"image": "https://i.imgur.com/example-demat1.png",
-"features": [
-{ "hi": "फ्री अकाउंट ओपनिंग", "en": "Free account opening" },
-{ "hi": "₹20 प्रति ऑर्डर ब्रोकरेज", "en": "₹20 per order brokerage" },
-{ "hi": "IPO, म्यूचुअल फंड, स्टॉक्स", "en": "IPO, Mutual Funds, Stocks" }
-],
-"link": "https://leads.banksathi.com/?h=YOUR_DEMAT_LINK_1",
-"applyText_hi": "डीमैट खोलें",
-"applyText_en": "Open Demat"
-},
-{
-"badge_hi": "लाइफटाइम फ्री",
-"badge_en": "Lifetime Free",
-"title_hi": "प्रो डीमैट अकाउंट",
-"title_en": "Pro Demat Account",
-"desc_hi": "एडवांस्ड चार्टिंग, रिसर्च रिपोर्ट और लो ब्रोकरेज।",
-"desc_en": "Advanced charting, research reports and low brokerage.",
-"highlight_hi": "₹0 ब्रोकरेज पहले 30 दिन",
-"highlight_en": "₹0 Brokerage for first 30 days",
-"image": "https://i.imgur.com/example-demat2.png",
-"features": [
-{ "hi": "ट्रेडिंगव्यू इंटीग्रेशन", "en": "TradingView Integration" },
-{ "hi": "फ्री मार्केट एनालिसिस", "en": "Free Market Analysis" },
-{ "hi": "एक्सपर्ट एडवाइजरी", "en": "Expert Advisory" }
-],
-"link": "https://leads.banksathi.com/?h=YOUR_DEMAT_LINK_2",
-"applyText_hi": "प्रो अकाउंट खोलें",
-"applyText_en": "Open Pro Account"
-}
+  {
+    "badge_hi": "फ्री डीमैट",
+    "badge_en": "Free Demat",
+    "title_hi": "अपस्टॉक्स डीमैट अकाउंट",
+    "title_en": "Upstox Demat Account",
+    "desc_hi": "शून्य खाता खोलने का शुल्क, पहले साल जीरो AMC, और तेज़ ऑनबोर्डिंग।",
+    "desc_en": "Zero account opening charges, zero AMC for the first year, and quick onboarding.",
+    "highlight_hi": "पहले साल ₹0 AMC",
+    "highlight_en": "₹0 AMC for 1st Year",
+    "image": "./upload/images/upstox-demat.jpg",
+    "features": [
+      { "hi": "शून्य खाता खोलने का शुल्क", "en": "Zero Account Opening Charges" },
+      { "hi": "पहले साल के लिए जीरो AMC", "en": "Zero AMC for 1st Year" },
+      { "hi": "त्वरित और पेपरलेस ऑनबोर्डिंग", "en": "Quick & Paperless Onboarding" },
+      { "hi": "म्यूचुअल फंड और IPO पर जीरो कमीशन", "en": "Zero Commission on Mutual Funds & IPO investments" }
+    ],
+    "link": "https://leads.banksathi.com/?h=b3RTM2J6aGtKRi9CQ1BXdmRpeFFKdz09",
+    "applyText_hi": "अभी खाता खोलें",
+    "applyText_en": "Open Account Now"
+  }
 ]
