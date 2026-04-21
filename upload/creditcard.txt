@@ -42,5 +42,87 @@
     "link": "https://leads.banksathi.com/?h=Zm5TMEJNR1lkUmUzNm1ESzR1RlFnQT09",
     "applyText_hi": "अभी अप्लाई करें",
     "applyText_en": "Apply Now"
+  },
+  {
+    "badge_hi": "रिवॉर्ड पॉइंट्स",
+    "badge_en": "Reward Points",
+    "title_hi": "एसबीआई क्रेडिट कार्ड",
+    "title_en": "SBI Credit Card",
+    "desc_hi": "आसान और सुरक्षित भुगतान, हर खर्च पर रिवॉर्ड पॉइंट्स और शानदार ऑफर्स।",
+    "desc_en": "Easy & secure payments, reward points on every spend, dining, travel & lifestyle offers.",
+    "highlight_hi": "हर खर्च पर रिवॉर्ड पॉइंट्स",
+    "highlight_en": "Reward Points on every spend",
+    "image": "./upload/images/sbi-card.jpg",
+    "features": [
+      { "hi": "आसान और सुरक्षित भुगतान", "en": "Easy & Secure Payments" },
+      { "hi": "हर खर्च पर रिवॉर्ड पॉइंट्स", "en": "Reward Points on every spend" },
+      { "hi": "डाइनिंग, ट्रैवल और लाइफस्टाइल ऑफर्स", "en": "Dining, Travel & Lifestyle Offers" },
+      { "hi": "कैशबैक और एक्सक्लूसिव डिस्काउंट", "en": "Cashback & Exclusive Discounts" }
+    ],
+    "link": "https://leads.banksathi.com/?h=UnNZRzZpcFZablZsUDZPenhqSmFSdz09",
+    "applyText_hi": "अभी अप्लाई करें",
+    "applyText_en": "Apply Now"
+  },
+  {
+    "badge_hi": "जीरो जॉइनिंग फीस",
+    "badge_en": "Zero Joining Fees",
+    "title_hi": "यस बैंक POPclub क्रेडिट कार्ड",
+    "title_en": "Yes Bank POPclub Credit Card",
+    "desc_hi": "RuPay कार्ड, हर लेन-देन पर POPcoins कमाएं, ₹5000 के जॉइनिंग बेनिफिट्स।",
+    "desc_en": "RuPay card, earn POPcoins on every transaction, ₹5000 joining benefits.",
+    "highlight_hi": "₹5000 वर्थ जॉइनिंग बेनिफिट्स",
+    "highlight_en": "₹5000 Worth Joining Benefits",
+    "image": "./upload/images/yes-popclub.jpg",
+    "features": [
+      { "hi": "जीरो जॉइनिंग फीस", "en": "Zero Joining Fees" },
+      { "hi": "₹5000 वर्थ जॉइनिंग बेनिफिट्स", "en": "₹5000 Worth of Joining Benefits" },
+      { "hi": "हर ऑनलाइन पेमेंट पर 10 POPcoins", "en": "Earn 10 POPcoins on every online payment" },
+      { "hi": "कार्ड एक्टिवेशन पर 500 एक्स्ट्रा POPcoins", "en": "Get EXTRA 500 POPcoins on card activation" },
+      { "hi": "1% फ्यूल सरचार्ज वेवर", "en": "1% Fuel Surcharge Waiver" }
+    ],
+    "link": "https://leads.banksathi.com/?h=R3VQQXFVNGVqTDVpRm5wNllTMkxadz09",
+    "applyText_hi": "अभी अप्लाई करें",
+    "applyText_en": "Apply Now"
+  },
+  {
+    "badge_hi": "लाइफटाइम फ्री",
+    "badge_en": "Lifetime Free",
+    "title_hi": "बीओबी लाइफटाइम फ्री क्रेडिट कार्ड",
+    "title_en": "BOB Lifetime Free Credit Card",
+    "desc_hi": "डेली खर्चों पर 5X रिवॉर्ड पॉइंट्स, कोई वार्षिक शुल्क नहीं, फ्यूल सरचार्ज वेवर।",
+    "desc_en": "5X reward points on daily expenses, no annual charges, fuel surcharge waiver.",
+    "highlight_hi": "5X रिवॉर्ड पॉइंट्स",
+    "highlight_en": "5X Reward Points",
+    "image": "./upload/images/bob-card.jpg",
+    "features": [
+      { "hi": "डेली खर्चों पर 5X रिवॉर्ड पॉइंट्स", "en": "5X reward points on daily expenses" },
+      { "hi": "लाइफटाइम फ्री कार्ड – कोई वार्षिक शुल्क नहीं", "en": "Lifetime FREE card – no annual charges" },
+      { "hi": "फ्यूल सरचार्ज वेवर", "en": "Fuel surcharge waiver" },
+      { "hi": "मल्टीपल रिवॉर्ड रिडेम्पशन ऑप्शन", "en": "Multiple reward redemption options" }
+    ],
+    "link": "https://leads.banksathi.com/?h=RWhWTXFWSGxBVFY0dGtoZERFa1BBdz09",
+    "applyText_hi": "अभी अप्लाई करें",
+    "applyText_en": "Apply Now"
+  },
+  {
+    "badge_hi": "कैशबैक कार्ड",
+    "badge_en": "Cashback Card",
+    "title_hi": "आईडीएफसी फर्स्ट हैलो कैशबैक कार्ड",
+    "title_en": "IDFC First Hello Cashback Credit Card",
+    "desc_hi": "ऑनलाइन स्पेंड पर 5% तक कैशबैक, UPI और इन-स्टोर पर 1% कैशबैक।",
+    "desc_en": "Up to 5% cashback on online spends, 1% on UPI and in-store swipes.",
+    "highlight_hi": "₹18,000 तक कैशबैक",
+    "highlight_en": "Earn Upto ₹18,000 Cashback",
+    "image": "./upload/images/idfc-hello-cashback.jpg",
+    "features": [
+      { "hi": "ऑनलाइन स्पेंड पर 5% तक कैशबैक", "en": "Up to 5% Cashback on online spends" },
+      { "hi": "IDFC FIRST ऐप से UPI स्पेंड पर 1% कैशबैक", "en": "1% Cashback on UPI spends via IDFC FIRST Bank Mobile App" },
+      { "hi": "इन-स्टोर स्वाइप और ज़रूरी कैटेगरी पर 1% कैशबैक", "en": "1% Cashback on in-store swipes & essential categories" },
+      { "hi": "होटल/फ्लाइट बुकिंग पर बोनस 1% कैशबैक", "en": "Bonus 1% Cashback on hotel & flight bookings via IDFC FIRST Bank App" },
+      { "hi": "1% फ्यूल सरचार्ज वेवर", "en": "1% Fuel Surcharge Waiver" }
+    ],
+    "link": "https://leads.banksathi.com/?h=TXdSaVp6VHlRTHlYcWg1bTVOazZPZz09",
+    "applyText_hi": "अभी अप्लाई करें",
+    "applyText_en": "Apply Now"
   }
 ]
